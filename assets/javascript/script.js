@@ -49,6 +49,7 @@ function draw(e) {
     }
 }
 
+// canvas mouse down offset x and y
 canvas.addEventListener('mousedown', (e) => {
     isDrawing = true;
     [lastX, lastY] = [e.offsetX, e.offsetY];
