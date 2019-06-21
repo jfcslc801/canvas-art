@@ -21,6 +21,10 @@ let lastY = 0;
 // draw function
 function draw(e) {
     console.log(e);
+    ctx.beginPath();
+    ctx.moveTo(lastX, lastY);
+    ctx.lineTo(e.offsetX, e.offsetY);
+    ctx.stroke();
 }
 
 // canvas click and drag even listenters
