@@ -7,3 +7,8 @@ const ctx = canvas.getContext('2d');
 // resize canvas 1700x1100
 canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
+
+// base settings 
+ctx.strokeStyle = '#BADASS';
+ctx.lineJoin = 'round';
+ctx.lineCap = 'round';
