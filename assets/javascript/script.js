@@ -25,6 +25,7 @@ function draw(e) {
     // stop function when not mouse down
     if (!isDrawing) return;
     console.log(e);
+    ctx.strokeStyle = `hsl(${hue}, 100%, 50%)`;
     ctx.beginPath();
     // start from
     ctx.moveTo(lastX, lastY);
