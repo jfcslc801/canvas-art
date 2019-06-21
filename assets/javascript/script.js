@@ -2,4 +2,4 @@
 const canvas = document.querySelector('#draw');
 
 // 2D context
-const ctx = canvas.msGetRegionContent('2d');
+const ctx = canvas.getContext('2d');
