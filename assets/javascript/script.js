@@ -33,6 +33,7 @@ function draw(e) {
     ctx.lineTo(e.offsetX, e.offsetY);
     ctx.stroke();
     [lastX, lastY] = [e.offsetX, e.offsetY];
+    hue++;
 }
 
 canvas.addEventListener('mousedown', (e) => {
